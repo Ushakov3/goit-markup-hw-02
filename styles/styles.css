@@ -33,16 +33,22 @@ span {
 /* logo  */
 
 /* nav  */
+
 .site-nav .link {
   color: #2e2f42;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
 }
+
 .link:hover,
 .link:focus {
   color: #404bbf;
 }
+.portfolio .link {
+  color: #404bbf;
+}
+
 /* nav  */
 
 /* contacts */
@@ -139,4 +145,26 @@ span {
   line-height: 1.5;
   color: #e7e9fc;
   background: #2e2f42;
+}
+
+.list-btn {
+  color: #4d5ae5;
+}
+
+.list-btn:hover,
+.list-btn:focus {
+  background-color: #404bbf;
+  color: #ffffff;
+}
+
+.list-item {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.list-text-item {
+  font-size: 16px;
+  line-height: 1.5;
+
+  color: #434455;
 }
