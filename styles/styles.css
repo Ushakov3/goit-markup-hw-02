@@ -1,5 +1,7 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
+  color: #2e2f42;
 }
 
 .link {
@@ -12,7 +14,7 @@ body {
 
 /* logo  */
 span {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
@@ -21,7 +23,7 @@ span {
 }
 
 .logo-link {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
@@ -93,7 +95,6 @@ span {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  color: #2e2f42;
 }
 
 .text-list-item {
@@ -110,7 +111,6 @@ span {
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
-  color: #2e2f42;
 }
 /* about  */
 
@@ -120,20 +120,18 @@ span {
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
-  color: #2e2f42;
 }
 
 .team-list {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  color: #2e2f42;
 }
 
 .team-list-position {
   font-size: 16px;
   line-height: 1.5;
-  color: #554343;
+  color: #434455;
 }
 
 .bottom-page {
