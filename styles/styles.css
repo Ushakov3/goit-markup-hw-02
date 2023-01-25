@@ -100,6 +100,7 @@ span {
   background: var(--accent-color);
   color: #ffffff;
 }
+
 /* hero  */
 
 /* Hidden title  */
@@ -183,4 +184,9 @@ span {
   line-height: 1.5;
 
   color: var(--primary-text-color);
+}
+
+.main-btn,
+.list-btn {
+  cursor: pointer;
 }
