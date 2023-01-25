@@ -1,7 +1,13 @@
+:root {
+  --title-text-color: #2e2f42;
+  --primary-text-color: #434455;
+  --accent-color: #404bbf;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #ffffff;
-  color: #2e2f42;
+  color: var(--title-text-color);
 }
 
 .link {
@@ -35,7 +41,7 @@ span {
 /* nav  */
 
 .site-nav .link {
-  color: #2e2f42;
+  color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -43,10 +49,10 @@ span {
 
 .link:hover,
 .link:focus {
-  color: #404bbf;
+  color: var(--accent-color);
 }
 .portfolio .link {
-  color: #404bbf;
+  color: var(--accent-color);
 }
 
 /* nav  */
@@ -55,23 +61,23 @@ span {
 
 .header-contact-list .mail,
 .header-contact-list .tel {
+  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
-  color: #434455;
+  color: var(--primary-text-color);
 }
 .tel:hover,
 .mail:hover {
-  color: #404bbf;
+  color: var(--accent-color);
 }
 .tel:focus,
 .mail:focus {
-  color: #404bbf;
+  color: var(--accent-color);
 }
 /* contacts */
 
 /* hero  */
 .main-part-header {
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -91,7 +97,7 @@ span {
 }
 .main-btn:hover,
 .main-btn:focus {
-  background: #404bbf;
+  background: var(--accent-color);
   color: #ffffff;
 }
 /* hero  */
@@ -106,13 +112,12 @@ span {
 .text-list-item {
   font-size: 16px;
   line-height: 1.5;
-  color: #434455;
+  color: var(--primary-text-color);
 }
 /* Hidden title  */
 
 /* about  */
 .about {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -121,7 +126,6 @@ span {
 /* about  */
 
 .team {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -137,7 +141,7 @@ span {
 .team-list-position {
   font-size: 16px;
   line-height: 1.5;
-  color: #434455;
+  color: var(--primary-text-color);
 }
 
 .bottom-page {
@@ -153,8 +157,20 @@ span {
 
 .list-btn:hover,
 .list-btn:focus {
-  background-color: #404bbf;
+  background-color: var(--accent-color);
   color: #ffffff;
+}
+.list-btn {
+  width: 116px;
+  height: 48px;
+
+  background: #f4f4fd;
+
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .list-item {
@@ -166,5 +182,5 @@ span {
   font-size: 16px;
   line-height: 1.5;
 
-  color: #434455;
+  color: var(--primary-text-color);
 }
