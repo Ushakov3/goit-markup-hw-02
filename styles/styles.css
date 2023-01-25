@@ -90,12 +90,14 @@ span {
 /* contacts */
 
 /* hero  */
+.main-part {
+  background: #2e2f42;
+}
 .main-part-header {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   color: #ffffff;
-  background: #2e2f42;
 }
 
 .main-btn {
@@ -162,7 +164,6 @@ span {
   font-size: 16px;
   line-height: 1.5;
   color: #e7e9fc;
-  background: #2e2f42;
 }
 
 .list-btn {
@@ -213,5 +214,7 @@ span {
   line-height: 1.33;
   text-transform: uppercase;
   color: #f4f4fd;
+}
+.bottom {
   background: #2e2f42;
 }
